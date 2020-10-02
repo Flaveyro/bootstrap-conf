@@ -1,0 +1,76 @@
+.text-platzi /*color a la clase*/
+{
+    color: #97c93e !important;
+}
+
+/*seccion botones*/
+.btn-platzi
+{
+    background-color: #97c93e;
+    color: white;
+}
+
+.btn-platzi:hover /*hover del boton*/
+{
+    background-color: #82ad36;
+    color: white;
+
+}
+/*fin seccion botones*/
+
+#header img/*tamaño del logo de platzi*/
+{
+    
+    width: 80px;
+}
+
+#main .carousel-inner img
+{
+    max-height: 70vh;/*max 70 del tamaño de la pantalla*/
+    object-fit: cover;/*ajusta el tamaño de la imagen*/
+    filter: grayscale(60%) !important; /*filtro a las imagenes*/
+}
+
+#carousel 
+{
+    position: relative;
+
+}
+#carousel .overlay
+{
+    position: absolute;/*expande el texto por todo el alto y ancho*/
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);/*.5 le da transparencia*/
+    color: white;
+    z-index: 1;/*muestra el texto en todas las imagenes del carousel*/
+}
+
+#carousel .overlay .container,
+#carousel .overlay .row
+{
+    height: 100%;
+}
+
+#footer 
+{
+    background: linear-gradient(90deg, #1c3643,#273b47 25%, #1e5372);/*color del fondo del footer*/
+}
+
+#place-time
+{
+    background-color: #343a40;
+    color: white;
+}
+
+#place-time img
+{
+    max-width: 100%;
+}
+
+#footer a
+{
+    color: white;/*color del texto*/
+}
